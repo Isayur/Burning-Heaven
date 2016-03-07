@@ -1,7 +1,22 @@
 <HTML>
 <HEAD>
 <TITLE>Recent news</TITLE> <!-- Insert Title Here -->
-
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+ 
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+ 
+  return t;
+}(document, "script", "twitter-wjs"));</script>
 
 <LINK REL="stylesheet" HREF="css\base.css" TYPE="text/css">
 <LINK REL="stylesheet" HREF="css\txtformat.css" TYPE="text/css">
@@ -87,7 +102,7 @@
 		<br><br>
 		<button>Foo</button>
 		<div class="twitter-foo">
-			<p>Placeholder for twitter feed using JavaScript or Python</p>
+			<a class="twitter-timeline" href="https://twitter.com/HeavenBurner/lists/widget" data-widget-id="705740713300983809" data-chrome="nofooter noheader">Tweets from https://twitter.com/HeavenBurner/lists/widget</a>
 		</div>
 	</div>
 </div>
