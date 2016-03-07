@@ -32,9 +32,13 @@ IMG.logo-pic {
 DIV.tool-btns {
   display: inline-block;
   float: right;
-  width: 20%;
+  width: 40%;
   height: 12%;
   border: none;
+}
+
+DIV.btns-nav {
+  vertical-align: bottom;
 }
 
 DIV.body {
@@ -61,6 +65,31 @@ DIV.nav-tweet-side {
   padding: auto;
 }
 
-li{
+
+ul{
+	margin:0;
+	padding:0;
   list-style: none;
+  float: right;
+}
+
+li.js-dropdown {
+	width:90px;
+	height:30px;
+	float:left;
+	color:#191919;
+	text-align:center;
+	overflow:hidden;
+  display: block;
+}
+li.js-dropdown:hover {background:#999;}
+
+li.menu-item {
+  padding-left:0;
+  padding-top: 10px;
+}
+
+a{
+	color:#FFF;
+	text-decoration:none;
 }
