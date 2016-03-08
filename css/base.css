@@ -74,6 +74,8 @@ DIV.content-side {
   width: 75%;
   height: auto;
   border: none;
+  font-size:0px;
+  line-height:0px;
 }
 
 
