@@ -64,11 +64,19 @@ DIV.body {
 }
 
 DIV.content-side {
-  display: inline-block;
+  display: grid;
   width: 75%;
   height: auto;
   float: left;
   border: none;
+}
+
+DIV.img-slider-container{
+  float: left;
+}
+
+DIV.news-block {
+  display: block;
 }
 
 DIV.nav-tweet-side {
@@ -98,10 +106,12 @@ li.js-dropdown, li.emptymenu {
 	text-align:center;
 	overflow:hidden;
 }
-li.js-dropdown:hover, li.emptymenu:hover {background:#999;}
 
 p.menu-item {
+  font-size: 19;
+  margin: 0px;
   padding-top: 0px;
+  background: #999;
 }
 
 a{

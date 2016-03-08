@@ -23,17 +23,24 @@
 <LINK REL="stylesheet" HREF="css\txtformat.css" TYPE="text/css" charset="utf-8">
 <LINK REL="stylesheet" HREF="css\media.css" TYPE="text/css" charset="utf-8">
 
-<script src="./js/jquery-2.2.1.js" type="text/javascript" charset="utf-8"></script>
+<script src="./js/jquery-1.3.js" type="text/javascript" charset="utf-8"></script>
 <script src="./js/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
 <script src="./js/animated-menu.js" type="text/javascript" charset="utf-8"></script>
+<script src="./js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="./js/jquery.innerfade.js" type="text/javascript" charset="utf-8"></script>
 
 <script type="text/javascript" charset="utf-8">
 		$(document).ready(function() {
 			$('#show').innerFade({
+				animationType: 'slide',
 				timeout: 1000,
+			});	
+			
+			$('#show2').innerFade({
+				animate: false,
+				indexContainer: '#index2'
 			});
-		});	
+		});
 </script>
 
 </HEAD>

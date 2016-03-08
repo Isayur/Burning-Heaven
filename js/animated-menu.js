@@ -1,11 +1,11 @@
 $(document).ready(function(){
 	
-	$("li.js-dropdown").mouseover(function(){
-		$(this).stop().animate({height:'150px'},{queue:false, duration:600, easing: 'easeOutBounce'})
+	$(".js-dropdown").mouseenter(function(){
+		$(this).stop().animate({height:'150px'},{speed:600})
 	});
 	
-	$("li.js-dropdown").mouseout(function(){
-		$(this).stop().animate({height:'40px'},{queue:false, duration:600, easing: 'easeOutBounce'})
+	$(".js-dropdown").mouseleave(function(){
+		$(this).stop().animate({height:'40px'},{speed:"fast"})
 	});
 	
 });
