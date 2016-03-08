@@ -50,3 +50,21 @@ p.article-text {
 div.emp-deails{
   display: inline;
 }
+
+p.news-header{
+  font-family: Frontier;
+  font-size: 80;
+  text-align: center;
+}
+
+h2.news-title{
+  font-family: Trajan;
+  font-size: 30;
+  text-align: center;
+}
+
+p.news-link{
+  font-family: Code;
+  font-size: 18;
+  text-align: center;
+}
