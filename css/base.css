@@ -65,10 +65,10 @@ DIV.body {
   padding-left: 20%;
   width: 60%;
   height: auto;
-  padding-block-start: 2%;
 }
 
 DIV.content-side {
+  padding-block-start: 6%;
   position: relative;
   display: inline-block;
   width: 75%;
