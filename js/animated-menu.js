@@ -5,7 +5,7 @@ $(document).ready(function(){
 	});
 	
 	$("li.js-dropdown").mouseout(function(){
-		$(this).stop().animate({height:'30px'},{queue:false, duration:600, easing: 'easeOutBounce'})
+		$(this).stop().animate({height:'40px'},{queue:false, duration:600, easing: 'easeOutBounce'})
 	});
 	
 });
