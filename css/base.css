@@ -68,13 +68,14 @@ DIV.body {
 }
 
 DIV.content-side {
-  padding-block-start: 6%;
+  margin-top: 6%;
   position: relative;
   display: inline-block;
   width: 75%;
   height: auto;
   border: none;
 }
+
 
 DIV.img-slider-container{
   position: absolute;

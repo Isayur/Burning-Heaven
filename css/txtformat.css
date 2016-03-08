@@ -52,7 +52,7 @@ div.emp-deails{
 }
 
 p.news-header{
-  font-family: Frontier;
+  font-family: Code;
   font-size: 80;
   text-align: center;
 }
@@ -64,7 +64,12 @@ h2.news-title{
 }
 
 p.news-link{
-  font-family: Code;
+  margin: auto;
+  font-family: Trajan;
   font-size: 18;
   text-align: center;
+  width: 15%;
+  font-style: bold;
+  height: auto;
+  background-color: #999;
 }
