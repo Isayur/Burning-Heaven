@@ -108,3 +108,11 @@ a{
 	color:#FFF;
 	text-decoration:none;
 }
+
+ul.show {
+  width: 100%;
+  height: 30%;
+  float: none;
+}
+
+li {list-style: none;}
