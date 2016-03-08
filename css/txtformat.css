@@ -47,3 +47,6 @@ p.article-text {
   font-size: 23;
   text-align: justify;
 }
+div.emp-deails{
+  display: inline;
+}

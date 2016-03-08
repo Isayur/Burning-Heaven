@@ -1,0 +1,23 @@
+div.emp-contact{
+  display: inline-block;
+  position: relative;
+}
+div.emp-deails{
+  display: inline;
+  float: right;
+}
+
+p.contact-info {
+  padding-right: 57%;}
+
+img.emp-picture{
+  height: 20%;
+  width: 15%;
+}
+div.emp-deails{
+  display: inline-block;
+}
+div.emp-pic{
+  display: inline-block;
+  float: left;
+}
