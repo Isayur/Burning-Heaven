@@ -1,31 +1,35 @@
 img.article-pic-large{
-  height: 55%;
+  padding-left: 10%;
+  height: 28%;
   width: 80%;
   margin: 0;
-  padding: 1%;
   display: block;
 }
 img.article-pic-small{
-  height: 20%;
-  width: 30%;
+  height: 13%;
+  width: 25%;
   margin: 0;
   padding: 1%;
   display: inline;
+  float: left;
 }
 iframe.youtube-vid{
-  height: 55%;
+  padding-left: 10%;
+  height: 28%;
   width: 80%;
   margin: 0;
-  padding: 0%;
   display: block;
+  border: none;
 }
 
 img.slider-img {
-  padding: 13%;
+  padding: 11%;
   height: 30%;
   width: 170%;
   display: block;
-}img.emp-picture{
+}
+
+img.emp-picture{
   height: 20%;
   width: 15%;
 }
