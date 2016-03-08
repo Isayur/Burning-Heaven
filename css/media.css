@@ -21,8 +21,9 @@ iframe.youtube-vid{
 }
 
 img.slider-img {
+  padding: 13%;
   height: 30%;
-  width: 100%;
+  width: 170%;
   display: block;
 }img.emp-picture{
   height: 20%;

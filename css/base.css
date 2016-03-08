@@ -72,11 +72,13 @@ DIV.content-side {
 }
 
 DIV.img-slider-container{
-  float: left;
+  display: block;
+  width: 100%;
 }
 
 DIV.news-block {
   display: block;
+  width: 100%;
 }
 
 DIV.nav-tweet-side {
