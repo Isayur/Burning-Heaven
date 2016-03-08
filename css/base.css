@@ -39,6 +39,9 @@ DIV.tool-btns {
 
 DIV.btns-nav {
   vertical-align: bottom;
+  height: 12%;
+  width: 40%;
+  padding: 0;
 }
 
 DIV.body {
@@ -67,26 +70,26 @@ DIV.nav-tweet-side {
 
 
 ul{
+  width: 400;
 	margin:0;
 	padding:0;
   list-style: none;
   float: right;
+  display: inline;
 }
 
-li.js-dropdown {
-	width:90px;
+li.js-dropdown, li.emptymenu {
+  width:80px;
 	height:30px;
 	float:left;
 	color:#191919;
 	text-align:center;
 	overflow:hidden;
-  display: block;
 }
-li.js-dropdown:hover {background:#999;}
+li.js-dropdown:hover, li.emptymenu:hover {background:#999;}
 
-li.menu-item {
-  padding-left:0;
-  padding-top: 10px;
+p.menu-item {
+  padding-top: 0px;
 }
 
 a{
