@@ -1,0 +1,21 @@
+img.article-pic-large{
+  height: 55%;
+  width: 80%;
+  margin: 0;
+  padding: 1%;
+  display: block;
+}
+img.article-pic-small{
+  height: 55%;
+  width: 60%;
+  margin: 0;
+  padding: 1%;
+  display: block;
+}
+iframe.youtube-vid{
+  height: 80%;
+  width: 80%;
+  margin: 0;
+  padding: 0%;
+  display: block;
+}
