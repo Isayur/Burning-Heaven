@@ -21,11 +21,13 @@
 <LINK REL="stylesheet" HREF="css\base.css" TYPE="text/css" charset="utf-8">
 <LINK REL="stylesheet" HREF="css\txtformat.css" TYPE="text/css" charset="utf-8">
 <LINK REL="stylesheet" HREF="css\media.css" TYPE="text/css" charset="utf-8">
+<LINK REL="stylesheet" HREF="css\lightbox.css" TYPE="text/css" charset="utf-8">
 
 <script src="./js/jquery-2.2.1.js" type="text/javascript" charset="utf-8"></script>
 <script src="./js/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
 <script src="./js/animated-menu.js" type="text/javascript" charset="utf-8"></script>
 <script src="./js/jquery.innerfade.js" type="text/javascript" charset="utf-8"></script>
+
 
 <script type="text/javascript" charset="utf-8">
 		$(document).ready(function() {
@@ -107,13 +109,16 @@
 		</div>
 		<div class = "article-content">
 			<p class = "article-text">text text text text text text</p>
-			<img class = "article-pic-large" src = "pics/example.jpg">
+			<a href="pics/example.jpg" data-lightbox="image-1">
+			<img class = "article-pic-large" src = "pics/example.jpg"></a>
 			<p class = "article-text">text text text text text text</p>
 			<iframe class="youtube-vid"	src="https://www.youtube.com/embed/hRUy-D0JU2I" allowfullscreen></iframe>
 			<p class = "article-quote">quote quote quote quote quote</p>
-			<img class = "article-pic-small" src = "pics/example2.jpg">
+			<a href="pics/example2.jpg" data-lightbox="image-2">
+			<img class = "article-pic-small" src = "pics/example2.jpg"></a>
 			<p class = "article-text">text text text text text text</p>
-			<img class = "article-pic-small" src = "pics/example1.jpg">
+			<a href="pics/example1.jpg" data-lightbox="image-3">
+			<img class = "article-pic-small" src = "pics/example1.jpg"></a>
 		</div>
 	</div>
 	<div class="nav-tweet-side">
@@ -127,6 +132,6 @@
 		</div>
 	</div>
 </div>
-
+<script src="./js/lightbox.js" type="text/javascript" charset="utf-8"></script>
 </BODY>
 </HTML>
