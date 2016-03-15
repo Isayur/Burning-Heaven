@@ -1,9 +1,11 @@
-DIV{margin: none; padding: none;}
+body{margin: 0; padding: 0;}
+DIV{margin: 0; padding: 0;}
 
 DIV.toolbar-pic {
+  top: 0;
   display: block;
-  width: 100%;
-  height: 12%;
+  width: 100vw;
+  height: 12vh;
   background-image: url("../toolbar-pic.jpg");
   border: none;
   margin-bottom: 1%;
@@ -12,33 +14,31 @@ DIV.toolbar-pic {
 DIV.toolbar {
   position: absolute;
   display: inline-block;
+  width: 60vw;
+  height: 12vh;
   margin-left: 20%;
   margin-right: 20%;
-  width: 60%;
-  height: 12%;
-  border: none;
 }
 
 DIV.logo {
   position: absolute;
   display: inline-block;
-  width: 30%;
-  height: 100%;
+  width: 18vw;
+  height: 12vh;
   border: none;
+  overflow: hidden;
 }
 
 IMG.logo-pic {
-  position: relative;
   height: 100%;
-  width: 90%;
-}
+  width: 100%;
+} 
 
 DIV.tool-btns {
-  position: absolute;
   display: inline-block;
-  padding-left: 60%;
-  width: 40%;
-  height: 30%;
+  float: right;
+  width: 24vw;
+  height: 12vh;
   border: none;
 }
 
@@ -46,15 +46,15 @@ DIV.srch-nav {
   position: relative;
   display: block;
   float: right;
-  height: 12%;
-  padding-top: 4%;
+  height: 0.144vh;
+  padding-top: 2.5vh;
 }
 
 DIV.btns-nav {
   z-index: 1;
   position: relative;
   display: block;
-  height: 40%;
+  height: 4.8vh;
   padding-left: 68%;
   width: 40%;
   padding-top: 15%;
@@ -62,9 +62,9 @@ DIV.btns-nav {
 
 DIV.body {
   position: absolute;
-  padding-left: 20%;
-  width: 60%;
-  height: 180%;
+  padding-left: 20vw;
+  width: 60vw;
+  height: 180vh;
 }
 
 DIV.content-side {
@@ -74,16 +74,17 @@ DIV.content-side {
   width: 75%;
   height: auto;
   border: none;
-  font-size:0px;
   line-height:0px;
 }
 
 
 DIV.img-slider-container{
-  position: absolute;
+  position: relative;
   display: block;
-  height: 40%;
-  width: 100%;
+  height: 40vh;
+  width: 60vw;
+  margin-bottom: 5vh;
+  margin-top: 10vh;
 }
 
 DIV.news-block {
@@ -95,27 +96,29 @@ DIV.news-block {
 }
 
 DIV.nav-tweet-side {
-  display: grid;
+  display: inline-block;
   width: 25%;
   height: auto;
   float: right;
   border: none;
-  padding: auto;
 }
 
 
 ul{
-  width: 545px;
+  width: 28.4vw;
 	margin:0;
+  padding: 0;
   list-style: none;
-  display: block;
 }
 ul.nav-list {
-  float: right;}
+  float: right;
+  position: relative;
+  display: inline-block;
+}
 
 li.js-dropdown, li.emptymenu {
-  width:109px;
-	height:40px;
+  width:5.6vw;
+	height:3.7vh;
 	float:right;
 	color:#191919;
 	text-align:center;
@@ -123,11 +126,11 @@ li.js-dropdown, li.emptymenu {
 }
 
 p.menu-item {
-  font-size: 18;
+  font-size: 1.125em;
   margin: 0px;
   background: #999;
   text-align: left;
-  padding-bottom: 5px;
+  padding-bottom: 0.46vh;
 }
 
 a{
@@ -136,10 +139,10 @@ a{
 }
 
 ul.show {
-  width: 400px;
+  width: 20.8vw;
 }
 li.show-li {
-  width: 400px;
+  width: 20.8vw;
   position: relative;
 }
 

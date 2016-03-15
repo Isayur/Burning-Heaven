@@ -23,9 +23,10 @@ iframe.youtube-vid{
 }
 
 img.slider-img {
-  height: 300;
-  width: 170%;
+  height: 40vh;
+  width: 50vw;
   display: block;
+  margin-left: 5vw;
 }
 
 img.emp-picture{

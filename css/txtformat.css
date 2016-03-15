@@ -31,22 +31,22 @@
 
 p.article-title {
   font-family: Frontier;
-  font-size: 100;
+  font-size: 6.25em;
   text-align: center;
 }
 
 p.article-quote {
   font-family: code;
   color: #F00;
-  font-size: 70;
-  line-height: 60px;
+  font-size: 4.375em;
+  line-height: 5.555vh;
   text-align: center;
   margin: 20px;
 }
 
 p.article-text {
   font-family: Trajan;
-  font-size: 23;
+  font-size: 1.4375em;
   text-align: justify;
 }
 div.emp-deails{
@@ -55,23 +55,22 @@ div.emp-deails{
 
 p.news-header{
   font-family: Code;
-  font-size: 80;
+  font-size: 5em;
   text-align: center;
 }
 
 h2.news-title{
   font-family: Trajan;
-  font-size: 30;
+  font-size: 1.875em;
   text-align: center;
 }
 
 p.news-link{
   margin: auto;
   font-family: Trajan;
-  font-size: 18;
+  font-size: 1.125em;
   text-align: center;
   width: 15%;
-  font-style: bold;
   height: auto;
   background-color: #999;
 }
