@@ -5,7 +5,7 @@ DIV.toolbar-pic {
   top: 0;
   display: block;
   width: 100vw;
-  height: 12vh;
+  height: 13vh;
   background-image: url("../toolbar-pic.jpg");
   border: none;
   margin-bottom: 1%;
@@ -15,7 +15,7 @@ DIV.toolbar {
   position: absolute;
   display: inline-block;
   width: 60vw;
-  height: 12vh;
+  height: 13vh;
   margin-left: 20%;
   margin-right: 20%;
 }
@@ -84,7 +84,7 @@ DIV.img-slider-container{
   height: 40vh;
   width: 60vw;
   margin-bottom: 5vh;
-  margin-top: 10vh;
+  margin-top: 14vh;
 }
 
 DIV.news-block {
