@@ -57,7 +57,7 @@ DIV.btns-nav {
   height: 4.8vh;
   padding-left: 68%;
   width: 40%;
-  padding-top: 15%;
+  margin-top: 15%;
 }
 
 DIV.body {
@@ -118,7 +118,7 @@ ul.nav-list {
 
 li.js-dropdown, li.emptymenu {
   width:5.6vw;
-	height:3.7vh;
+	height:5vh;
 	float:right;
 	color:#191919;
 	text-align:center;
