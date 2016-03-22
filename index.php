@@ -1,7 +1,14 @@
+<?PHP
+$_head= '';
+$_content = '';
+include_once 'home.php;'
+?>
+
+<!DOCTYPE HTML>
 <HTML>
 <HEAD>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<TITLE>Elon Musk</TITLE> <!-- Insert Title Here -->
+<?php echo $_head; ?>
 <script>window.twttr = (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0],
     t = window.twttr || {};
@@ -21,31 +28,18 @@
 
 <LINK REL="stylesheet" HREF="css\base.css" TYPE="text/css" charset="utf-8">
 <LINK REL="stylesheet" HREF="css\txtformat.css" TYPE="text/css" charset="utf-8">
-<LINK REL="stylesheet" HREF="css\media.css" TYPE="text/css" charset="utf-8">
 
 <script src="./js/jquery-2.2.1.js" type="text/javascript" charset="utf-8"></script>
 <script src="./js/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
 <script src="./js/animated-menu.js" type="text/javascript" charset="utf-8"></script>
-<script src="./js/jquery.innerfade.js" type="text/javascript" charset="utf-8"></script>
 <script src="./js/random-buttons.js" type="text/javascript" charset="utf-8"></script>
-
-
-<script type="text/javascript" charset="utf-8">
-		$(document).ready(function() {
-			$('#show').innerFade({
-				timeout: 3000,
-			});
-		});	
-		
-
-</script>
 
 </HEAD>
 <BODY>
 <div class="toolbar-pic">
 	<div class="toolbar">
 		<div class="logo">
-			<a href="index.html">
+			<a href="?php echo $_SERVER['PHP_SELF'];?>?page=index">
 				<img src="logo.png" class="logo-pic">
 			</a>
 		</div>
@@ -59,45 +53,45 @@
 			<div class="btns-nav">
 				<ul class="nav-list">					
 					<li class="emptymenu">
-						<p><a href="contact.html">Contact</a></p>
+						<p><a href="$_GET['contact.php']">Contact</a></p>
 					</li>
 					<li class="emptymenu">
-						<p><a href="recentnews.html">Recent news</a></p>
+						<p><a href="?php echo $_SERVER['PHP_SELF'];?>?page=recentnews">Recent news</a></p>
 					</li>
 					<li class="js-dropdown">
 						<p><a href="#">Opinions</a></p>
 						<p class="menu-item">
-							<a href="ai.html">Artificial Intelligence</a>
+							<a href="?php echo $_SERVER['PHP_SELF'];?>?page=ai">Artificial Intelligence</a>
 						</p>
 						<p class="menu-item">
-							<a href="extraterrestrial.html">Extraterrestrial Life</a>
+							<a href="?php echo $_SERVER['PHP_SELF'];?>?page=extraterrestrial">Extraterrestrial Life</a>
 						</p>
 					</li>
 					<li class="js-dropdown">
 						<p><a href="#">Projects</a></p>
 						<p class="menu-item">
-							<a href="tesla.html">Tesla</a>
+							<a href="?php echo $_SERVER['PHP_SELF'];?>?page=tesla">Tesla</a>
 						</p>
 						<p class="menu-item">
-							<a href="spacex.html">SpaceX</a>
+							<a href="?php echo $_SERVER['PHP_SELF'];?>?page=spacex">SpaceX</a>
 						</p>
 						<p class="menu-item">
-							<a href="solarcity.html">SolarCity</a>
+							<a href="?php echo $_SERVER['PHP_SELF'];?>?page=solarcity">SolarCity</a>
 						</p>
 						<p class="menu-item">
-							<a href="hyperloop.html">Hyperloop</a>
+							<a href="?php echo $_SERVER['PHP_SELF'];?>?page=hyperloop">Hyperloop</a>
 						</p>
 					</li>
 					<li class="js-dropdown">
 						<p><a href="#">Life</a></p>
 						<p class="menu-item">
-							<a href="childhood.html">Childhood</a>
+							<a href="?php echo $_SERVER['PHP_SELF'];?>?page=childhood">Childhood</a>
 						</p>
 						<p class="menu-item">
-							<a href="personal.html">Personal Life</a>
+							<a href="?php echo $_SERVER['PHP_SELF'];?>?page=personal">Personal Life</a>
 						</p>
 						<p class="menu-item">
-							<a href="philanthropy.html">Philanthropy</a>
+							<a href="?php echo $_SERVER['PHP_SELF'];?>?page=philanthropy">Philanthropy</a>
 						</p>
 					</li>
 				</ul>
@@ -106,40 +100,7 @@
 	</div>
 </div>
 <div class="body">
-	<div class="img-slider-container">
-		<ul id="show" class="show">
-			<li class="show-li">
-				<a href="Tesla.html">
-					<img class = "slider-img" src = "pics/Tesla-musk.jpg">
-				</a>
-			</li>
-			<li class="show-li">
-				<a href="SpaceX.html">
-					<img class = "slider-img" src = "pics/spacex.jpg">
-				</a>
-			</li>
-			<li class="show-li">
-				<a href="Hyperloop.html">
-					<img class = "slider-img" src = "pics/hyperloop2.jpg">
-				</a>
-			</li>
-			<li class="show-li">
-				<a href="SolarCity.html">
-					<img class = "slider-img" src = "pics/solarcity-earnings.png">
-				</a>
-			</li>
-		</ul>
-	</div>
-	<div class="content-side">
-		<div class = "news-block">
-			<h2 class = "news-title">News</h2>
-			<div class = "news-content">
-			</div>
-			<p class = "news-link">
-				<a href = "recentnews.html" style="color:#00F"></b>More News</b></a>
-			</p>
-		</div>
-	</div>
+	<?php echo $_content; ?>
 	<div class="nav-tweet-side">
 		<button onclick = "randomLink();">Life</button>
 		<br><br>
