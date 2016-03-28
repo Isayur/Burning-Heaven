@@ -55,9 +55,10 @@ DIV.btns-nav {
   position: relative;
   display: block;
   height: 4.8vh;
-  padding-left: 68%;
+  float: right;
+  padding-left: 60%;
   width: 40%;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 DIV.body {
@@ -84,7 +85,7 @@ DIV.img-slider-container{
   height: 40vh;
   width: 60vw;
   margin-bottom: 5vh;
-  margin-top: 14vh;
+  margin-top: 8vh;
 }
 
 DIV.news-block {
@@ -131,11 +132,13 @@ p.menu-item {
   background: #999;
   text-align: left;
   padding-bottom: 0.46vh;
+  line-height: normal;
 }
 
 a{
 	color:#FFF;
 	text-decoration:none;
+  line-height: normal;
 }
 
 ul.show {
@@ -147,3 +150,14 @@ li.show-li {
 }
 
 li {list-style: none;}
+
+button.randombutton {
+  width: 100%;
+  display: block;
+  background-image: url("../toolbar-pic.jpg");
+  text-align: center;
+  border: none;
+  color: red;
+  font-size: 3vh;
+  line-height: normal;
+}

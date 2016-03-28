@@ -63,6 +63,7 @@ h2.news-title{
   font-family: Trajan;
   font-size: 1.875em;
   text-align: center;
+  line-height: normal;
 }
 
 p.news-link{
